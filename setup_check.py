@@ -3,10 +3,10 @@ import platform
 
 def verificar_ambiente():
     # TODO: Preencha seu nome completo na variável abaixo
-    nome_aluno = ""
+    nome_aluno = "Stefano Fiorioli Dahmer"
     
     # TODO: Use a biblioteca 'platform' ou 'sys' para capturar a versão do Python
-    versao_python = "" 
+    versao_python = sys.version
 
     print(f"Relatório de: {nome_aluno}")
     print(f"Sistema Operacional: {platform.system()}")
